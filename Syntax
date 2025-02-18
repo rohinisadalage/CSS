@@ -1,0 +1,20 @@
+/* Basic CSS Syntax Example */
+
+/* Universal Selector */
+
+{ margin: 0; padding: 0; box-sizing: border-box; }
+
+
+/* Element Selector */ body { font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6; padding: 20px; }
+
+/* Class Selector */ .container { width: 80%; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+
+/* ID Selector */ #main-heading { color: #007bff; text-align: center; }
+
+/* Grouping Selectors */ h1, h2, h3 { font-weight: bold; }
+
+/* Pseudo-Class Selector */ a:hover { color: red; }
+
+/* Pseudo-Element Selector */ p::first-letter { font-size: 2em; font-weight: bold; color: #007bff; }
+
+/* Media Query for Responsive Design */ @media (max-width: 600px) { .container { width: 100%; } }
